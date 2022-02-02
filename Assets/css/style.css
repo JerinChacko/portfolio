@@ -312,7 +312,8 @@ img{
 }
 
 .home_scroll-button:hover{
-    transform: translateY(0.25rem);
+    transform: translateY(10px);
+    
 }
 
 .home_scroll-mouse{
@@ -340,8 +341,21 @@ img{
     font-weight: var(--font-medium);
 }
 
-.button--flex{
-    
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+
+.button_icon{
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button---flex{
+    display:inline-flex;
+    align-items: center;
+
+
 }
 
 /*==================== ABOUT ====================*/
