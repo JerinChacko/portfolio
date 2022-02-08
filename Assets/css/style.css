@@ -355,6 +355,15 @@ img{
     transition: .3s;
 }
 
+.button---white{
+    background-color: #fff;
+    color:var(--first-color);
+}
+
+.button---white:hover{
+    background-color: #fff;
+}
+
 .button---flex{
     display:inline-flex;
     align-items: center;
@@ -794,9 +803,54 @@ img{
 
 /*==================== PROJECT IN MIND ====================*/
 
+.project{
+    text-align: center;
+}
+
+.project_bg{
+    background-color:var(--first-color-second);
+    padding-top:3rem;
+}
+
+.project_title{
+    font-size: var(--h2-font-size);
+    padding-bottom: var(--mb-0-75);
+
+}
+
+.project_description{
+    margin-bottom: var(--mb-1-5);
+
+}
+
+.project_title,
+.project_description{
+    color:#fff
+}
+
+.project_img{
+    width:232px;
+    justify-self:center ;
+}
+
 
 /*==================== TESTIMONIAL ====================*/
 
+.testimonial_data,
+.testimonial_header{
+    display:flex;
+}
+
+.testimonial_data{
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-1);
+}
+
+.testimonial_img{
+    width:60px;
+    height:a;
+    border-radius: 100%;
+}
 
 /*==================== CONTACT ME ====================*/
 
