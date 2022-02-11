@@ -369,6 +369,8 @@ img{
     padding:1rem;
     border-radius:0.5rem;
     font-weight: var(--font-medium);
+    outline: none;
+    border: none;
 }
 
 .button:hover{
